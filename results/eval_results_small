@@ -1,0 +1,6 @@
+Algorithm,Success,Success %,Average Gap %,Average Time (s)
+Linear Programming,25,100.0,0.0,3.050798550248146e-05
+Brute force,25,100.0,0.0,0.007388928015716374
+VNS,25,100.0,0.0,0.03786149598658085
+VNS (no pruning),25,100.0,0.0,0.02228021998424083
+Genetic Algorithm,25,100.0,0.0,0.7076694200048224
