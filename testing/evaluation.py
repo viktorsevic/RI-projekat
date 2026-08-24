@@ -87,8 +87,8 @@ def evaluate_algorithms(folder, do_brute_force = True):
 
         result = VNS(
             graph,
-            1000,
-            3,
+            1500,
+            12,
             do_prune=False
         )
 
@@ -115,8 +115,8 @@ def evaluate_algorithms(folder, do_brute_force = True):
 
         result = VNS(
             graph,
-            1000,
-            3
+            1500,
+            12
         )
 
         elapsed = time.perf_counter() - start
@@ -144,10 +144,10 @@ def evaluate_algorithms(folder, do_brute_force = True):
             200,
             graph,
             eliteSize=10,
-            numGenerations=200,
-            selectionSize=50,
-            mutationSize=50,
-            mutationRate=0.05
+            numGenerations=800,
+            selectionSize=100,
+            mutationSize=75,
+            mutationRate=0.06
         )
 
         elapsed = time.perf_counter() - start
